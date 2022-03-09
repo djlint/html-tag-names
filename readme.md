@@ -4,21 +4,6 @@ Python port of npm package [html-tag-names](https://www.npmjs.com/package/html-t
 
 List of known HTML tag names.
 
-## Contents
-
-*   [What is this?](#what-is-this)
-*   [When should I use this?](#when-should-i-use-this)
-*   [Install](#install)
-*   [Use](#use)
-*   [API](#api)
-    *   [`htmlTagNames`](#htmltagnames)
-*   [Types](#types)
-*   [Compatibility](#compatibility)
-*   [Security](#security)
-*   [Related](#related)
-*   [Contribute](#contribute)
-*   [License](#license)
-
 ## What is this?
 
 This is a list of HTML tag names.
@@ -73,3 +58,9 @@ Yields:
   'br'
 ]
 ```
+## License
+
+[MIT][license] © Riverside Healthcare
+Ported from `html-tag-names` [MIT][license] © [Titus Wormer][author]
+
+[license]: LICENSE
