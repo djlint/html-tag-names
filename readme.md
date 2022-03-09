@@ -61,6 +61,6 @@ Yields:
 ## License
 
 [GPL][license] © Riverside Healthcare
-Ported from `html-tag-names` [MIT][license] © [Titus Wormer][author]
+Ported from `html-tag-names` [MIT][LICENSE] © [Titus Wormer][https://github.com/wooorm]
 
 [license]: LICENSE
