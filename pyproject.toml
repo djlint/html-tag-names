@@ -4,6 +4,11 @@ version = "0.1.0"
 description = "List of known HTML tag names"
 authors = ["Christopher Pickering <cpickering@rhc.net>"]
 license = "MIT License"
+readme="readme.md"
+repository="https://github.com/Riverside-Healthcare/html-tag-names"
+packages = [
+    { include = "HtmlTagNames" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
