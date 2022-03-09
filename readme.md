@@ -60,7 +60,7 @@ Yields:
 ```
 ## License
 
-[MIT][license] © Riverside Healthcare
+[GPL][license] © Riverside Healthcare
 Ported from `html-tag-names` [MIT][license] © [Titus Wormer][author]
 
 [license]: LICENSE
