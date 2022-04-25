@@ -1,28 +1,42 @@
-# HtmlTagNames
+<h1 align="center">HTML Tag Names</h1>
 
-Python port of npm package [html-tag-names](https://www.npmjs.com/package/html-tag-names).
+<h4 align="center">List of known HTML tag names.</h4>
 
-List of known HTML tag names.
+<h5 align="center">Python port of npm package <a href="https://www.npmjs.com/package/html-tag-names" target="_blank">html-tag-names</a>.</h5>
 
-## What is this?
+<p align="center">
+  <a href="https://pypi.org/project/html-tag-names/">
+    <img src="https://badgen.net/pypi/v/html-tag-names" alt="Pypi Version">
+  </a>
+  <a href="https://pepy.tech/project/html-tag-names">
+    <img src="https://static.pepy.tech/badge/html-tag-names" alt="Downloads">
+  </a>
+</p>
+
+
+## 🤔 What is this?
 
 This is a list of HTML tag names.
 It includes ancient (for example, `nextid` and `basefont`) and modern (for
 example, `shadow` and `template`) names from the HTML living standard.
 The repo includes scripts to regenerate the data from the specs.
 
-## When should I use this?
+## ⌚ When should I use this?
 
 You can use this package when you need to know what tag names are allowed in
 any version of HTML.
 
-## Install
+## 💾 Install
 
 ```sh
 pip install html-tag-names
+
+# or
+
+poetry add html-tag-names
 ```
 
-## Use
+## ✨ How to Use
 
 ```py
 from HtmlTagNames import html_tag_names
@@ -58,9 +72,9 @@ Yields:
   'br'
 ]
 ```
-## License
+## 🪪 License
 
-[GPL][license] © Riverside Healthcare
-Ported from `html-tag-names` [MIT][LICENSE] © [Titus Wormer][https://github.com/wooorm]
+- [GPL][license] © Riverside Healthcare
+- Ported from `html-tag-names` [MIT][LICENSE] © [Titus Wormer](https://github.com/wooorm)
 
 [license]: LICENSE
